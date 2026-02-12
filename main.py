@@ -1,7 +1,7 @@
 import asyncio
 
 from src.sending_message_telegram import data_display
-from aiogram import Bot, Dispatcher
+from aiogram import Bot
 from config import bot_token
 
 
