@@ -27,9 +27,9 @@ async def fx_client() -> dict | None:
         if rub_usd and rub_eur and rub_cny:
             rates_text = (
             "🪙Курс валют на сегодня:\n"
-            f"💵Доллар:{1/rub_usd:.2f} RUB\n"
-            f"💶Евро:{1/rub_eur:.2f} RUB\n"
-            f"💴Юань:{1/rub_cny:.2f} RUB"
+            f"💵Доллар: {1/rub_usd:.2f} RUB\n"
+            f"💶Евро: {1/rub_eur:.2f} RUB\n"
+            f"💴Юань: {1/rub_cny:.2f} RUB"
             )
             return rates_text
         else:
